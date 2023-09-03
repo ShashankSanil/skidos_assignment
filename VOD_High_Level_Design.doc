@@ -1,0 +1,57 @@
+High-Level Design (HLD):
+
+1. Objectives and Requirements:
+    * Objective: Develop a VOD microservice to serve fun learning videos to SKIDOS apps and the web platform.
+    * Requirements: Secure access, adaptive bitrate streaming, video encryption, video search .
+
+2. Architecture Overview:
+    * Microservices Architecture
+    * Components:
+        - User Authentication
+        - Video Storage
+        - Adaptive Bitrate Streaming
+        - Video Encryption
+        - Video Search 
+
+3. Data Flow:
+    * Authenticated users request videos.
+    * The microservice retrieves video metadata and content from storage.
+    * Adaptive streaming adjusts video quality based on the user's device and network.
+    * Encrypted video is streamed to the user's device.
+
+4. Technology Stack:
+    * Programming Language: Golang/Node.js
+    * Frameworks: Go-Chassis,Gin-gonic,GoKit / LoopsBack,Express.js
+    * Databases: PostgreSQL/MongoDB for user data, S3 for video storage
+    * Video Streaming: FFmpeg for adaptive streaming
+    * Encryption: HTTPS, AES encryption
+
+5. Security:
+    * User authentication via JWT tokens
+    * Access control to ensure only authenticated users can access videos
+    * HTTPS for secure data transmission
+    * AES encryption for video content
+    * Rate limiting to prevent abuse
+
+6. Scalability:
+    * Use containerization (Docker) and orchestration (Kubernetes) for scalability.
+    * Utilize a Content Delivery Network (CDN) for efficient video delivery.
+
+7. Failover and Redundancy:
+    * Implement load balancing and auto-scaling to ensure high availability.
+    * Regular backups and disaster recovery plans.
+
+8. Monitoring and Logging:
+    * Use centralized logging (e.g., ELK stack) for monitoring and debugging.
+    * Implement health checks and alerts for critical components.
+
+9. API Documentation:
+    * Document API endpoints for user authentication, video retrieval, adaptive streaming, and video search (if implemented).
+    * Define request/response formats and authentication mechanisms.
+
+10. Cost Estimation:
+    * Estimate infrastructure costs, including storage, bandwidth, and third-party services.
+    * Consider CDN costs.
+
+11. Timeline and Milestones:
+    * Define project milestones, including development, testing, and deployment phases.
