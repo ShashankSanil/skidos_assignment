@@ -1,6 +1,7 @@
 # VoD_microservice
 
-1.Launch service center                   
+1.Launch service center  
+                 
       docker-compose up 
       
 2.Run services
