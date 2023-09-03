@@ -1,7 +1,7 @@
 # VoD_microservice
 
 1.Launch service center  
-                 
+
       docker-compose up 
       
 2.Run services
@@ -29,9 +29,9 @@
 
     sampleInput : {
                         "User_type":"ADMIN",
-                        "Username":"Shashank",
-                        "Email" :"Shashank@gmail.com",
-                        "Password": "Shashank@123"
+                        "Username":"Dummy",
+                        "Email" :"Dummy@gmail.com",
+                        "Password": "Dummy@2321"
                   }
 
 2-> Login : POST
@@ -43,8 +43,8 @@
                   }
 
     sampleInput : {
-                        "Email" :"Shashank@gmail.com",
-                        "Password": "Shashank@123"
+                        "Email" :"Dummy@gmail.com",
+                        "Password": "Dummy@2321"
                   }
 
 3-> Get ALl USers : GET
