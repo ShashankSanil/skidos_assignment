@@ -1,0 +1,27 @@
+swagger: "2.0"
+info:
+  title: ""
+  version: ""
+basePath: /
+paths:
+  /user/login:
+    post:
+      operationId: Login
+      consumes:
+      - '*/*'
+      produces:
+      - '*/*'
+  /user/signup:
+    post:
+      operationId: Signup
+      consumes:
+      - '*/*'
+      produces:
+      - '*/*'
+  /users:
+    get:
+      operationId: GetAllUser
+      consumes:
+      - '*/*'
+      produces:
+      - '*/*'

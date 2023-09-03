@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Getting Started with Go",
+        "url": "https://www.youtube.com/watch?v=YS4e4q9oBaU"
+    },
+    {
+        "title": "Advanced Go Concurrency",
+        "url": "https://www.youtube.com/watch?v=KyuFeiG3Y60"
+    },
+    {
+        "title": "Web Development with Go",
+        "url": "https://www.youtube.com/watch?v=sFv5IFXuVd4"
+    },
+    {
+        "title": "Go Best Practices",
+        "url": "https://www.youtube.com/watch?v=MzTcsI6tn-0"
+    },
+    {
+        "title": "Debugging Go Applications",
+        "url": "https://www.youtube.com/watch?v=n3TQBxg1X2Y"
+    },
+    {
+        "title": "Go and Microservices",
+        "url": "https://www.youtube.com/watch?v=VzBGi_n65iU"
+    },
+    {
+        "title": "Go Testing Strategies",
+        "url": "https://www.youtube.com/watch?v=8D4VgpLlDnU"
+    },
+    {
+        "title": "Using Go Modules",
+        "url": "https://www.youtube.com/watch?v=QgHN2f_G4v4"
+    },
+    {
+        "title": "Go Data Structures",
+        "url": "https://www.youtube.com/watch?v=Mlu14D2WqJ0"
+    },
+    {
+        "title": "Go for Machine Learning",
+        "url": "https://www.youtube.com/watch?v=cZvSUc-rBw0"
+    },
+    {
+        "title": "Go Concurrency Patterns",
+        "url": "https://www.youtube.com/watch?v=f6kdp27TYZs"
+    },
+    {
+        "title": "Go Web APIs",
+        "url": "https://www.youtube.com/watch?v=uIc5t86-FfM"
+    },
+    {
+        "title": "Go Error Handling",
+        "url": "https://www.youtube.com/watch?v=AnNtcWP9inE"
+    },
+    {
+        "title": "Go Performance Optimization",
+        "url": "https://www.youtube.com/watch?v=Kz-6FRhYscA"
+    },
+    {
+        "title": "Go Networking",
+        "url": "https://www.youtube.com/watch?v=u9D71IYqEUM"
+    },
+    {
+        "title": "Go Security Best Practices",
+        "url": "https://www.youtube.com/watch?v=VYJNqCKLqaw"
+    },
+    {
+        "title": "Using Go with Databases",
+        "url": "https://www.youtube.com/watch?v=8B8d2eqVQXU"
+    },
+    {
+        "title": "Go GUI Development",
+        "url": "https://www.youtube.com/watch?v=KJBfPShKjo0"
+    },
+    {
+        "title": "Go and Cloud Computing",
+        "url": "https://www.youtube.com/watch?v=QE2D2LDUaFU"
+    },
+    {
+        "title": "Go and IoT",
+        "url": "https://www.youtube.com/watch?v=fNf-QY3SMMQ"
+    }
+]

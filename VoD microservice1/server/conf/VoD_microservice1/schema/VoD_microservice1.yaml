@@ -1,0 +1,27 @@
+swagger: "2.0"
+info:
+  title: ""
+  version: ""
+basePath: /
+paths:
+  /video/{vid}:
+    get:
+      operationId: GetVideoById
+      consumes:
+      - '*/*'
+      produces:
+      - '*/*'
+  /video/upload:
+    post:
+      operationId: Upload
+      consumes:
+      - '*/*'
+      produces:
+      - '*/*'
+  /videos:
+    get:
+      operationId: GetAllVideos
+      consumes:
+      - '*/*'
+      produces:
+      - '*/*'

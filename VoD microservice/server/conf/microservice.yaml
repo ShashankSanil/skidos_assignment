@@ -1,0 +1,4 @@
+servicecomb:
+  service:
+    name: VoD_microservice
+    baseUrl:

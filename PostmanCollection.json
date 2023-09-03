@@ -1,0 +1,216 @@
+{
+    "info": {
+        "_postman_id": "4f031d0e-bf0e-4e85-9e07-05c1ba7d4861",
+        "name": "skidos_assignment",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "20603569"
+    },
+    "item": [
+        {
+            "name": "create user",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "language",
+                        "value": "en",
+                        "type": "text"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"User_type\":\"ADMIN\",\n    \"Username\":\"Shashank\",\n    \"Email\" :\"Shashank@gmail.com\",\n    \"Password\": \"Shashank@123\"\n\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:3000/user/signup",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "user",
+                        "signup"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "login",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "language",
+                        "value": "en",
+                        "type": "text"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"Email\" :\"Shashank@gmail.com\",\n    \"Password\": \"Shashank@123\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:3000/user/login",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "user",
+                        "login"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "GetAll user",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "token",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IlNoYXNoYW5rQGdtYWlsLmNvbSIsIlVzZXJuYW1lIjoiU2hhc2hhbmsiLCJVaWQiOiI2NGY0N2FlMTJhMGEzMTk1MTliZGQwNGMiLCJVc2VyX3R5cGUiOiJBRE1JTiIsImV4cCI6MTY5MzgzMDI0MX0.byB8wciqUwohCA-FIhQRPjdkTHx2MJTBTk1_lCsD3no",
+                        "type": "text"
+                    },
+                    {
+                        "key": "language",
+                        "value": "en",
+                        "type": "text"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3000/users",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "users"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Bulk Upload",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "language",
+                        "value": "en",
+                        "type": "text"
+                    },
+                    {
+                        "key": "token",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IlNoYXNoYW5rQGdtYWlsLmNvbSIsIlVzZXJuYW1lIjoiU2hhc2hhbmsiLCJVaWQiOiI2NGY0N2FlMTJhMGEzMTk1MTliZGQwNGMiLCJVc2VyX3R5cGUiOiJBRE1JTiIsImV4cCI6MTY5MzgzMDI0MX0.byB8wciqUwohCA-FIhQRPjdkTHx2MJTBTk1_lCsD3no",
+                        "type": "text"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3001/video/upload",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "video",
+                        "upload"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "GetAll videos",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "token",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IlNoYXNoYW5rQGdtYWlsLmNvbSIsIlVzZXJuYW1lIjoiU2hhc2hhbmsiLCJVaWQiOiI2NGY0N2FlMTJhMGEzMTk1MTliZGQwNGMiLCJVc2VyX3R5cGUiOiJBRE1JTiIsImV4cCI6MTY5MzgzMDI0MX0.byB8wciqUwohCA-FIhQRPjdkTHx2MJTBTk1_lCsD3no",
+                        "type": "text"
+                    },
+                    {
+                        "key": "language",
+                        "value": "en",
+                        "type": "text"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3001/videos?page=1&size=20&filter={\"title\":{\"$regex\":\"Be\"}}",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "videos"
+                    ],
+                    "query": [
+                        {
+                            "key": "page",
+                            "value": "1"
+                        },
+                        {
+                            "key": "size",
+                            "value": "20"
+                        },
+                        {
+                            "key": "filter",
+                            "value": "{\"title\":{\"$regex\":\"Be\"}}"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get Video by id",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "language",
+                        "value": "en",
+                        "type": "text"
+                    },
+                    {
+                        "key": "token",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IlNoYXNoYW5rQGdtYWlsLmNvbSIsIlVzZXJuYW1lIjoiU2hhc2hhbmsiLCJVaWQiOiI2NGY0N2FlMTJhMGEzMTk1MTliZGQwNGMiLCJVc2VyX3R5cGUiOiJBRE1JTiIsImV4cCI6MTY5MzgzMDI0MX0.byB8wciqUwohCA-FIhQRPjdkTHx2MJTBTk1_lCsD3no",
+                        "type": "text"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:3001/video/64f49efe8e439cc351d59e36",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "video",
+                        "64f49efe8e439cc351d59e36"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Create login",
+    "type": "object",
+    "properties": {
+        "Email": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",
+            "minLength": 6
+        },
+        "Password": {
+            "type": "string",
+            "minLength": 8
+        }
+    },
+    "required": [
+        "Email",
+        "Password"
+    ]
+}

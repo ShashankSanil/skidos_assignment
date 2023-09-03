@@ -1,0 +1,149 @@
+[
+  {
+    "functionname": "PayloadValidatorHanldlerHandler.Handle",
+    "errorcode": "100",
+    "en": "Invalid Payload",
+    "status": "400",
+    "errordescription": "Error occured, invalid json "
+  },
+  {
+    "functionname": "Repository.Signup",
+    "errorcode": "101",
+    "en": "Error 101:  Please Contact Help Desk",
+    "status": "500",
+    "errordescription": "Error while count data from database"
+  },
+  {
+    "functionname": "Repository.Signup",
+    "errorcode": "102",
+    "en": "Email already exists !!!",
+    "status": "400",
+    "errordescription": "Email already exists !!!"
+  },
+  {
+    "functionname": "Repository.GenerateToken",
+    "errorcode": "103",
+    "en": "Error 103:  Please Contact Help Desk",
+    "status": "500",
+    "errordescription": "Error while generating token"
+  },
+  {
+    "functionname": "Repository.Signup",
+    "errorcode": "104",
+    "en": "Error 104:  Please Contact Help Desk",
+    "status": "500",
+    "errordescription": "Error while inserting user to database"
+  },
+  {
+    "functionname": "Repository.Signup",
+    "errorcode": "105",
+    "en": "user created successfully",
+    "status": "200",
+    "errordescription": "user created successfully"
+  },
+  {
+    "functionname": "Resource.Signup",
+    "errorcode": "106",
+    "en": "Could not read payload",
+    "status": "500",
+    "errordescription": "Error Could not read payload"
+  },
+  {
+    "functionname": "Resource.Login",
+    "errorcode": "107",
+    "en": "Could not read payload ",
+    "status": "500",
+    "errordescription": "Error Could not read payload"
+  },
+  {
+    "functionname": "Repository.Login",
+    "errorcode": "108",
+    "en": "Error 108:  Please Contact Help Desk ",
+    "status": "500",
+    "errordescription": "Error while finding user in database"
+  },
+  {
+    "functionname": "common.helper",
+    "errorcode": "109",
+    "en": "Incorrect Password ",
+    "status": "400",
+    "errordescription": "Incorrect Password "
+  },
+  {
+    "functionname": "Repository.Login ",
+    "errorcode": "110",
+    "en": "User not Found!!",
+    "status": "400",
+    "errordescription": "User not Found!! "
+  },
+  {
+    "functionname": "Repository.Login ",
+    "errorcode": "111",
+    "en": "user Loged successfully ",
+    "status": "200",
+    "errordescription": "user Loged successfully "
+  },
+  {
+    "functionname": "common.helper",
+    "errorcode": "112",
+    "en": "Error while getting data from token ",
+    "status": "500",
+    "errordescription": "Error while getting data from token "
+  },
+  {
+    "functionname": "Resource",
+    "errorcode": "113",
+    "en": "Header is required!!!",
+    "status": "400",
+    "errordescription": "While getting headers from request"
+  },
+  {
+    "functionname": "common.helper",
+    "errorcode": "114",
+    "en": "token is invalid!!!",
+    "status": "500",
+    "errordescription": "Error while getting data from token "
+  },
+  {
+    "functionname": "common.helper",
+    "errorcode": "115",
+    "en": "Unauthorized access this resources !!!",
+    "status": "400",
+    "errordescription": "Unauthorized access this resources !!!"
+  },
+  {
+    "functionname": "Repository.GetUserByPagination",
+    "errorcode": "116",
+    "en": "Error 116:  Please Contact Help Desk",
+    "status": "500",
+    "errordescription": "Error while fetching the user from database"
+  },
+  {
+    "functionname": "Repository.GetUserByPagination",
+    "errorcode": "117",
+    "en": "User Fetched SucessFully",
+    "status": "200",
+    "errordescription": "User Fetched SucessFully"
+  },
+  {
+    "functionname": "Service.GetAllUser",
+    "errorcode": "118",
+    "en": "Error 118:  Contact Help Desk",
+    "status": "500",
+    "errordescription": "Error while marshaling"
+  },
+  {
+    "functionname": "authToken",
+    "errorcode": "119",
+    "en": "the token is invalid",
+    "status": "403",
+    "errordescription": "the token is invalid"
+  },
+  {
+    "functionname": "authToken",
+    "errorcode": "120",
+    "en": "token is expired",
+    "status": "403",
+    "errordescription": "Error while marshaling"
+  }
+]

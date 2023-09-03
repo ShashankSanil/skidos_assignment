@@ -1,0 +1,86 @@
+[
+  {
+    "functionname": "PayloadValidatorHanldlerHandler.Handle",
+    "errorcode": "100",
+    "en": "Invalid Payload",
+    "status": "400",
+    "errordescription": "Error occured, invalid json "
+  },
+  {
+    "functionname": "Resource",
+    "errorcode": "101",
+    "en": "Header is required!!!",
+    "status": "400",
+    "errordescription": "While getting headers from request"
+  },
+  {
+    "functionname": "Resource.Upload",
+    "errorcode": "102",
+    "en": "Error 102: Please Contact HelpDesk",
+    "status": "500",
+    "errordescription": "While reading file"
+  },
+  {
+    "functionname": "Resource",
+    "errorcode": "103",
+    "en": "Error 103: Please Contact HelpDesk",
+    "status": "500",
+    "errordescription": "While marshaling"
+  },
+  {
+    "functionname": "Repository.Upload",
+    "errorcode": "104",
+    "en": "Error 104: Please Contact HelpDesk",
+    "status": "500",
+    "errordescription": "While Inserting "
+  },
+  {
+    "functionname": "Repository.Upload",
+    "errorcode": "105",
+    "en": "Videos Uploaded Successfully",
+    "status": "200",
+    "errordescription": "Videos Uploaded Successfully"
+  },
+  {
+    "functionname": "Repository.GetAll",
+    "errorcode": "106",
+    "en": "Error 106:  Please Contact Help Desk",
+    "status": "500",
+    "errordescription": "Error while fetching the videos from database"
+  },
+  {
+    "functionname": "Repository.GetAll",
+    "errorcode": "107",
+    "en": "videos Fetched SucessFully",
+    "status": "200",
+    "errordescription": "videos Fetched SucessFully"
+  },
+  {
+    "functionname": "Repository.GetByID",
+    "errorcode": "108",
+    "en": "Error 108:  Please Contact Help Desk",
+    "status": "500",
+    "errordescription": "Error while fetching the videos from database"
+  },
+  {
+    "functionname": "Repository.GetAll",
+    "errorcode": "109",
+    "en": "video Fetched SucessFully",
+    "status": "200",
+    "errordescription": "video Fetched SucessFully"
+  },
+  {
+    "functionname": "authToken",
+    "errorcode": "110",
+    "en": "the token is invalid",
+    "status": "403",
+    "errordescription": "the token is invalid"
+  },
+  {
+    "functionname": "authToken",
+    "errorcode": "111",
+    "en": "token is expired",
+    "status": "403",
+    "errordescription": "Error while marshaling"
+  }
+]

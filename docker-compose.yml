@@ -1,0 +1,17 @@
+version: '3'
+services:
+  service-center:
+    image: 'servicecomb/service-center:latest'
+    restart: always
+    ports:
+      - "30100:30100"
+
+  scfrontend:
+    depends_on:
+      - service-center
+    image: 'servicecomb/scfrontend:latest'
+    restart: always
+    ports:
+      - "30103:30103"
+    environment:
+      SC_ADDRESS: http://service-center:30100
