@@ -124,7 +124,7 @@ func (s *Resources) URLPatterns() []restful.Route {
 	return []restful.Route{
 		//video routes
 		{Method: http.MethodPost, Path: "/video/upload", ResourceFunc: s.Upload},
-		{Method: http.MethodGet, Path: "/video/{vid}", ResourceFunc: s.GetVideoById},
+		{Method: http.MethodGet, Path: "/video/{id}", ResourceFunc: s.GetVideoById},
 		{Method: http.MethodGet, Path: "/videos", ResourceFunc: s.GetAllVideos},
 	}
 
