@@ -74,7 +74,7 @@ func UpdateAllTokens(signedToken string, signedRefreshToken string, userId strin
 	Updated_at, _ := time.Parse(time.RFC3339, time.Now().Format(time.RFC3339))
 	updateObj = append(updateObj, bson.E{Key: "updated_at", Value: Updated_at})
 	upsert := true
-	filter := bson.M{"user_id": userId}
+	filter := bson.M{"User_id": userId}
 	opt := options.UpdateOptions{
 		Upsert: &upsert,
 	}
