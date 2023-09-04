@@ -58,6 +58,9 @@ func (tr *Repository) GetById(id primitive.ObjectID, language string) common.HTT
 	result := make(map[string]interface{})
 	err := collection.FindOne(context.TODO(), bson.M{"_id": id}).Decode(&result)
 	if err != nil {
+		if err == mongo.ErrNoDocuments {
+			return common.ErrorHandler("112", nil, 0, language)
+		}
 		return common.ErrorHandler("108", nil, 0, language)
 	}
 	return common.ErrorHandler("109", result, 1, language)
