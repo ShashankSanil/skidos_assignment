@@ -82,5 +82,12 @@
     "en": "token is expired",
     "status": "403",
     "errordescription": "Error while marshaling"
+  },
+  {
+    "functionname": "Repository.GetByID",
+    "errorcode": "112",
+    "en": "Video Not Found",
+    "status": "404",
+    "errordescription": "Error while fetching the videos from database"
   }
 ]
